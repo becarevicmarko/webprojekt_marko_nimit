@@ -58,3 +58,9 @@ li {
         li a:hover {
             background-color: #111;
         }
+
+
+img{
+    position:center;
+    margin:20px 450px;
+}   
