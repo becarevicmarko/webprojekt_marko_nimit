@@ -19,7 +19,16 @@ namespace webprojekt_marko_nimit.Models
         public string Description { get; set; }
 
         //ctors 
+        public Dog() : this("", 0, DateTime.MinValue,"","") { }
 
+        public Dog(string name, int expirience, DateTime birthdate, string informations, string description)
+        {
+            this.Name = name;
+            this.Expirience = expirience;
+            this.Birthdate = birthdate;
+            this.Informations = informations;
+            this.Description = description;
+        }
         
 
     }
